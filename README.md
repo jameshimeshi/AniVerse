@@ -1,30 +1,18 @@
-Anime Explorer Web App
-A responsive React application to browse and discover anime using the Jikan API, featuring random picks, seasonal and top anime lists, search, filtering, favorites, and watchlist management.
+# Aniverse – Anime Explorer Web App 🎌
 
-Features
-Random Anime Picker: Get a random anime, filtering out adult content automatically.
+**Live Demo:** [aniverse.netlify.app](https://rainbow-choux-d7ca9f.netlify.app)
 
-Seasonal & Top Anime Lists: Browse current season’s anime and top-rated anime with sorting and filtering.
+A responsive anime explorer app built from scratch using **React.js**, **Redux Toolkit**, **Tailwind CSS**, and the **Jikan API**. Features include:
+- 🎯 Search, filter, and explore anime data
+- ⭐️ Add to favorites and watchlist
+- ⏳ Lazy loading, loading states, error handling
+- ☁️ Deployed with Netlify + CI/CD for live updates
 
-Favorites & Watchlist: Mark anime as favorites or add to your watchlist, with state management via Redux and Context API.
+## Tech Stack
+- React.js, Redux Toolkit, Context API
+- Tailwind CSS, React Router
+- Jikan API, Netlify
 
-Search & Filter: Quickly find anime by title or score.
+---
 
-Loading States & Error Handling: User-friendly spinners and fallback UI during data fetching.
-
-Responsive Design: Works smoothly on mobile, tablet, and desktop.
-
-Deployed on Netlify: Continuous deployment with automatic builds from GitHub.
-
-Tech Stack
-React (with hooks)
-
-Redux Toolkit
-
-Context API
-
-Tailwind CSS
-
-Jikan REST API
-
-Netlify (deployment)
+Built and designed by **James Debbarma**
