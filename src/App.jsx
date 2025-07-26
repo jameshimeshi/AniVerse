@@ -55,7 +55,7 @@ function App() {
       <div className="relative flex-1 min-w-[150px]">
 
          <button 
-         className="w-full bg-indigo-600 text-white py-4 rounded-xl text-lg font-semibold pr-10 hover:bg-indigo-700 hover:scale-105 transition-transform duration-200 shadow-md flex justify-center items-center"
+         className="w-full bg-indigo-600 text-white py-4 rounded-xl text-lg font-semibold text-center hover:bg-indigo-700 hover:scale-105 transition-transform duration-200 shadow-md flex justify-center items-center"
          onClick={tabswitchrandom}>Random</button>
 
         {tab === 1 && (
@@ -66,11 +66,11 @@ function App() {
         </button>)}
      </div>
       <div className="w-full sm:w-1/3">
-          <button className='w-full bg-indigo-600 text-white py-4 rounded-xl text-lg font-semibold hover:bg-indigo-700 hover:scale-105 transition-transform duration-200 shadow-md' onClick={tabswitchseasonal}>
+          <button className='w-full bg-indigo-600 text-white py-4 rounded-xl text-lg font-semibold hover:bg-indigo-700 hover:scale-105 transition-transform duration-200 shadow-md flex justify-center items-center text-center' onClick={tabswitchseasonal}>
           Seasonal</button>
           </div>
             <div className="w-full sm:w-1/3">
-          <button className='w-full bg-indigo-600 text-white py-4 rounded-xl text-lg font-semibold hover:bg-indigo-700 hover:scale-105 transition-transform duration-200 shadow-md' onClick={tabswitchTop}>Top</button>
+          <button className='w-full bg-indigo-600 text-white py-4 rounded-xl text-lg font-semibold hover:bg-indigo-700 hover:scale-105 transition-transform duration-200 shadow-md flex justify-center items-center text-center' onClick={tabswitchTop}>Top</button>
           </div>
           </div></div>
          {tab===0 && <SeasonalAnime/>}

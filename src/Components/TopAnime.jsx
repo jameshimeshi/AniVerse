@@ -40,8 +40,8 @@ const TopAnime=()=>{
         <>{top.length === 0 ? (
         <ListShimmer />
       ) : (top.sort((a,b)=>a.rank-b.rank).map((data,index)=>
-      (<div key={index} className='bg-gray-700 w-8/12 mx-auto h-50 mt-6 p-4 shadow-xl rounded-xl flex items-center gap-6 hover:shadow-2xl transition-all duration-300'>
-      <img src={data?.images?.jpg?.image_url} className='h-full w-auto rounded-lg object-cover'></img>
+      (<div key={index} className='bg-gray-700 w-full sm:w-10/12 lg:w-8/12 mx-auto mt-6 p-3 shadow-xl rounded-xl flex flex-col sm:flex-row items-center gap-4 sm:gap-6'>
+      <img src={data?.images?.jpg?.image_url} className='w-full sm:w-40 h-auto rounded-lg object-cover'></img>
             <div className="flex-1 h-full flex flex-col justify-center gap-4">
               <div className="flex flex-col">
                 <h1 className="text-xl font-bold">{data?.title}</h1>
