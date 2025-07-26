@@ -58,7 +58,7 @@ function App() {
          className="w-full bg-indigo-600 text-white py-4 rounded-xl text-lg font-semibold pr-10 hover:bg-indigo-700 hover:scale-105 transition-transform duration-200 shadow-md flex justify-center items-center"
          onClick={tabswitchrandom}>Random</button>
 
-        {tab === 0 && (
+        {tab === 1 && (
         <button onClick={fetchNewRandomAnime} 
          className="absolute right-2 top-1/2 -translate-y-1/2 text-white rounded-full p-1 w-7 h-7 flex justify-center items-center shadow-md hover:bg-red-400 hover:scale-140 cursor-pointer transition-transform"
         >
